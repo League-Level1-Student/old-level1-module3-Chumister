@@ -26,16 +26,12 @@ melee.createGUI();
 		N64.add(ultimate);
 		brawl.setSize(50,50);
 		ultimate.setSize(50,50);
-
 		brawl.setVisible(true);		
 		ultimate.setVisible(true);
 		brawl.setText("joke");
 		ultimate.setText("punchline");
-
 		N64.setVisible(true);
 		U.pack();
-		
-		
 	}
 	@Override
 	public void actionPerformed(ActionEvent e) {
